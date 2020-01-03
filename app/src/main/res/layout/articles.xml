@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleView"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="#E70F0F"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/imageView"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bodyView"
+            android:textSize="25dp"
+            android:textColor="#BE474444"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeView"
+            android:textSize="20dp"
+            android:textColor="#16BB1C"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
